@@ -1,0 +1,74 @@
+.main-header {
+  width: 100%;
+  border-bottom: 1px solid #acacac;
+}
+.main-header-content {
+  width: 100%;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.user-interactions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 22px;
+}
+.search {
+  position: relative;
+}
+.search-btn {
+  border: 1px solid #c7cace;
+  border-radius: 4px;
+  height: 36px;
+  width: 277px;
+  padding: 6px 12px;
+}
+::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #444a51;
+}
+.search-icon {
+  position: absolute;
+  right: 12px;
+  top: 6px;
+}
+.like {
+  width: 24px;
+  height: 24px;
+}
+.basket {
+  position: relative;
+}
+.basket-icon {
+  width: 24px;
+  height: 24px;
+}
+.product-number {
+  position: absolute;
+  border: 1px solid #6bacc8;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  left: 11px;
+  bottom: 11px;
+  align-items: center;
+  background: #6bacc8;
+}
+.lang {
+  display: flex;
+  gap: 10px;
+}
+.lang-border {
+  border-left: 1px solid #eceff2;
+}
