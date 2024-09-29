@@ -10,14 +10,13 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .brand-logo {
   display: flex;
-  flex-direction: row;
   gap: 30px;
 }
 .user-interactions {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 22px;
 }
@@ -31,7 +30,7 @@
   width: 277px;
   padding: 6px 12px;
 }
-::placeholder {
+.search-btn::placeholder {
   font-size: 16px;
   font-weight: 400;
   color: #444a51;
@@ -41,12 +40,14 @@
   right: 12px;
   top: 6px;
 }
+
 .like {
   width: 24px;
   height: 24px;
 }
 .basket {
   position: relative;
+  cursor: pointer;
 }
 .basket-icon {
   width: 24px;
@@ -71,4 +72,122 @@
 }
 .lang-border {
   border-left: 1px solid #eceff2;
+}
+.menu {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #009bc7;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #009bc7;
+  gap: 4px;
+  display: none;
+}
+.menu-border {
+  width: 20px;
+  border: 1px solid #ffffff;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  overflow: hidden;
+}
+.side-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.side-bar h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.close {
+  background-color: #1f3c4b;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1f3c4b;
+  border-radius: 6px;
+}
+
+.menu-nav-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-list::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 1px;
+  background-color: #dbe5ea;
+}
+.menu-list a {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 750px) {
+  .lang {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .search-btn::placeholder {
+    opacity: 0;
+  }
+  .search-icon {
+    right: 20%;
+    top: 20%;
+  }
+  .search-btn {
+    height: 40px;
+    width: 40px;
+  }
+  .main-naos-logo {
+    width: 150px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .brand-logo {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .user-interactions {
+    gap: 8px;
+  }
+  .main-naos-logo {
+    width: 100px;
+  }
 }

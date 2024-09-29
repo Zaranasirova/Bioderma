@@ -1,0 +1,130 @@
+.products-section {
+  padding: 40px 0;
+}
+
+.all-products {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sale-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discountend-product {
+  display: flex;
+  flex-direction: column;
+}
+.discounted {
+  font-size: 20px;
+  font-weight: 400;
+  color: #009bc7;
+  cursor: pointer;
+  height: 42px;
+}
+.text-border {
+  height: 2px;
+  background-color: #009bc7;
+  width: 217px;
+  display: block;
+}
+.see-all {
+  border: 1px solid #444a51;
+  padding: 2px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #444a51;
+  font-size: 18px;
+  font-weight: 400;
+}
+.sale {
+  font-weight: 400;
+  color: #a8a8a8;
+  display: none;
+}
+.products-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  border: none;
+  flex: 1 1 calc(25% - 20px);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0;
+  margin-top: 17px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-brand {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  color: #757575;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+.card-price {
+  font-size: 18px;
+  font-weight: 500;
+  color: #444a51;
+}
+.add-to-cart-btn {
+  height: 45px;
+  border: 1px solid #009bc7;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.button-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #009bc7;
+}
+
+@media (max-width: 1100px) {
+  .products-card {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
+  }
+
+  .card {
+    flex: 0 0 auto;
+    min-width: 250px;
+    max-width: 300px;
+  }
+  .see-all {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .sale {
+    display: block;
+  }
+}

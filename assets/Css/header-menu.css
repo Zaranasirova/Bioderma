@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 100%;
 }
@@ -17,6 +17,11 @@
   text-decoration: none;
   color: #444a51;
   font-weight: 600;
-  font-family: "Poppins", system-ui;
   font-size: 13px;
+}
+
+@media (max-width: 1200px) {
+  .header-menu {
+    display: none;
+  }
 }

@@ -15,23 +15,29 @@
   <body>
     <header class="header">
       <div class="top-header">
-        <div class="container-md">
+        <div class="container-naos">
           <div class="header-content">
             <p class="brand-description">
               Bioderma, Institut Esthederm ve Etat Pur rəsmi satış saytıdır.
             </p>
             <div class="contact">
               <img src="./assets/icons/Icon@2x.svg" alt="telephone-icon" />
-              <span>+994 12 123 4567</span>
+              <a class="telephone-link" href="tel:+994501234567"
+                >+994 12 123 4567</a
+              >
             </div>
           </div>
         </div>
       </div>
       <div class="main-header">
-        <div class="container-md">
+        <div class="container-naos">
           <div class="main-header-content">
             <div class="main-logo">
-              <img src="./assets/image/image 6.png" alt="naos-logo" />
+              <img
+                src="./assets/image/image 6.png"
+                alt="naos-logo"
+                class="main-naos-logo"
+              />
             </div>
             <div class="brand-logo">
               <div class="bioderma-logo">
@@ -71,25 +77,85 @@
                   alt="basket-icon"
                   class="basket-icon"
                 />
-                <span class="product-number">2</span>
+                <span class="product-number">0</span>
               </div>
               <div class="lang">
                 <span>AZ</span>
                 <span class="lang-border"></span>
                 <span>EN</span>
               </div>
+              <div class="menu">
+                <span class="menu-border"></span>
+                <span class="menu-border"></span>
+                <span class="menu-border"></span>
+              </div>
             </div>
+          </div>
+          <div class="side-menu">
+            <div class="container-naos">
+              <div class="side-bar">
+                <h2>Menu</h2>
+                <div class="close">
+                  <img
+                    src="./assets/icons/close.svg"
+                    alt="close-icon"
+                    class="close-icon"
+                  />
+                </div>
+              </div>
+            </div>
+            <nav class="side-menu-nav">
+              <ul class="menu-nav-list">
+                <li class="menu-list">
+                  <a class="nav-link" href="#">Brendlər və Məhsullar</a>
+                  <img src="./assets/icons/icon1.svg" alt="icon" />
+                </li>
+                <li class="menu-list">
+                  <a class="nav-link" href="#">Üz qulluğu</a
+                  ><img src="./assets/icons/icon1.svg" alt="icon" />
+                </li>
+                <li class="menu-list">
+                  <a class="nav-link" href="#">Bədən qulluğu</a
+                  ><img src="./assets/icons/icon1.svg" alt="icon" />
+                </li>
+                <li class="menu-list">
+                  <a class="nav-link" href="#">Günəş qoruyucuları</a
+                  ><img src="./assets/icons/icon1.svg" alt="icon" />
+                </li>
+                <li class="menu-list">
+                  <a class="nav-link" href="#">Gözəl yaş alma</a
+                  ><img src="./assets/icons/icon1.svg" alt="icon" />
+                </li>
+                <li class="menu-list">
+                  <a class="nav-link" href="#">Qulluq setləri</a
+                  ><img src="./assets/icons/icon1.svg" alt="icon" />
+                </li>
+                <li class="menu-list">
+                  <a class="nav-link" href="#">Aksiyalar və Kompaniyalar</a
+                  ><img src="./assets/icons/icon1.svg" alt="icon" />
+                </li>
+                <li class="menu-list">
+                  <a class="nav-link" href="#">Haqqımızda</a
+                  ><img src="./assets/icons/icon1.svg" alt="icon" />
+                </li>
+                <li class="menu-list">
+                  <a class="nav-link" href="#">Faydalı</a
+                  ><img src="./assets/icons/icon1.svg" alt="icon" />
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
       <div class="header-menu">
-        <div class="container-md">
+        <div class="container-naos">
           <nav class="main-navigation">
             <ul class="nav-links">
               <li><a href="#">Brendlər və Məhsullar</a></li>
               <li><a href="#">Üz qulluğu</a></li>
               <li><a href="#">Bədən qulluğu</a></li>
               <li><a href="#">Günəş qoruyucuları</a></li>
+              <li><a href="#">Gözəl yaş alma</a></li>
               <li><a href="#">Qulluq setləri</a></li>
               <li><a href="#">Aksiyalar və Kompaniyalar</a></li>
               <li><a href="#">Haqqımızda</a></li>
@@ -99,14 +165,225 @@
         </div>
       </div>
     </header>
-    <main>
+    <main style="display: flex; flex-direction: column; gap: 20px">
       <section class="best-sellers-section">
-        <div class="container-md">
-         
-
+        <div class="container-naos">
+          <div class="product-item">
+            <div class="itemone">
+              <img
+                class="img"
+                src="./assets/image/Bioderma1.jpg"
+                alt="Bioderma"
+              />
+            </div>
+            <div class="itemtwo">
+              <img
+                class="img"
+                src="./assets/image/Frame 47641.png"
+                alt="Bioderma-for-Spots"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products-section">
+        <div class="container-naos">
+          <div class="all-products">
+            <div class="sale-item">
+              <div class="discountend-product">
+                <span class="discounted">Endirimli məhsullar</span>
+                <span class="text-border"></span>
+              </div>
+              <span class="see-all">Hamısına bax</span>
+              <span class="sale">Endirimlər</span>
+            </div>
+            <div class="products-card"></div>
+          </div>
+        </div>
+      </section>
+      <section class="brand-section">
+        <div class="container-naos">
+          <div class="brand-showcase"></div>
+          <div class="more">
+            <button class="more-items">Daha çox</button>
+          </div>
+        </div>
+      </section>
+      <section class="discover-section">
+        <div class="container-naos">
+          <div class="discover-collection">
+            <div class="skincare-routine">
+              <h3 class="skin-care">Dəri qulluğu rutini</h3>
+              <span class="skin-bottom-border"></span>
+            </div>
+            <div class="discover-products"></div>
+          </div>
+        </div>
+      </section>
+      <section class="mega-discount">
+        <div class="container-naos">
+          <div class="bioderma-img">
+            <img
+              class="mega-discount-img"
+              src="./assets/image/Frame 47643 (1).png"
+              alt="Bioderma discount image"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="basket-section">
+        <div class="container-naos">
+          <div class="basket-products">
+            <h3 class="basket-title">Səbət</h3>
+            <div class="cart-items">
+              <div class="cards"></div>
+              <div class="products-about">
+                <h3>Səbətdəki məhsullar</h3>
+                <div class="product-summary">
+                  <div class="products-price">
+                    <p>Məhsulların qiyməti:</p>
+                    <span class="sum"></span>
+                  </div>
+                  <div class="discount">
+                    <p>Endirim</p>
+                    <span class="oldPrice"></span>
+                  </div>
+                </div>
+                <div class="aggregate-price">
+                  <p>Toplam qiymət:</p>
+                  <span class="total"></span>
+                </div>
+                <button class="official-btn">Sifarişi rəsmiləşdir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skinCareExpertise">
+        <div class="container-naos">
+          <div class="careExperience">
+            <div class="infosection">
+              <img
+                src="./assets/icons/Screen Shot 2022-11-02 at 13.07.svg"
+                alt="icon "
+              />
+              <p>Səhiyyə mütəxəssisləri ilə 40 illik iş təcrübəsi</p>
+            </div>
+            <div class="infosection">
+              <img
+                src="./assets/icons/Screen Shot 2022-11-02 at 13.07 (1).svg"
+                alt="icon "
+              />
+              <p>Səhiyyə mütəxəssisləri ilə 40 illik iş təcrübəsi</p>
+            </div>
+            <div class="infosection">
+              <img src="./assets/icons/Frame 47663.svg" alt="icon " />
+              <p>Səhiyyə mütəxəssisləri ilə 40 illik iş təcrübəsi</p>
+            </div>
+            <div class="infosection">
+              <img
+                src="./assets/icons/Screen Shot 2022-11-02 at 12.57 1.svg"
+                alt="icon "
+              />
+              <p>Səhiyyə mütəxəssisləri ilə 40 illik iş təcrübəsi</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="container-naos">
+        <div class="footer-container">
+          <div class="footer-logo">
+            <div class="naos-logo">
+              <img
+                src="./assets/image/image 6.png"
+                alt="Naos-footer logo"
+                class="naos-footer-logo"
+              />
+            </div>
+            <p class="footer-about-text">
+              NAOS dünyanın ilk müstəqil dəriyə qulluq şirkətlərindən biridir.
+              NAOS eko biologiyadan ilhamlanaraq 3 marka yaratdı
+            </p>
+          </div>
+          <div class="footer-about">
+            <nav class="footer-about-top">
+              <div class="catagories-item">
+                <h2 class="item-name">Kateqoriyalar</h2>
+                <ul class="item-list">
+                  <li class="list"><a href="#">Brendlər və Məhsullar</a></li>
+                  <li class="list"><a href="#">Qulluq setləri</a></li>
+                  <li class="list"><a href="#">Üz qulluğu</a></li>
+                  <li class="list"><a href="#">Bədən qulluğu</a></li>
+                  <li class="list"><a href="#">Günəş qoruyucuları</a></li>
+                  <li class="list"><a href="#">Göz yaş alma</a></li>
+                </ul>
+              </div>
+              <div class="catagories-item">
+                <h2 class="item-name">Şirkət</h2>
+                <ul class="item-list">
+                  <li class="list"><a href="#">Haqqımızda</a></li>
+                  <li class="list"><a href="#">Faydalı</a></li>
+                  <li class="list">
+                    <a href="#">Aksiyalar və Kompaniyalar</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="catagories-item">
+                <h2 class="item-name">Kömək</h2>
+                <ul class="item-list">
+                  <li class="list"><a href="#">FAQ</a></li>
+                  <li class="list"><a href="#">Ödəniş və çatdırılma</a></li>
+                  <li class="list"><a href="#">Zəmanət şərtləri</a></li>
+                  <li class="list"><a href="#">Mağaza ünvanları</a></li>
+                </ul>
+              </div>
+            </nav>
+            <div class="footer-about-bottom">
+              <div class="footer-brands">
+                <div class="brand-item">
+                  <img
+                    src="./assets/image/image 1 (1).png"
+                    alt="footer-brand-bioderma"
+                  />
+                </div>
+              </div>
+              <div class="footer-brands">
+                <div class="brand-item">
+                  <img
+                    src="./assets/image/image 7 (1).png"
+                    alt="footer-brand-esthederm"
+                  />
+                </div>
+              </div>
+              <div class="footer-brands">
+                <div class="brand-item">
+                  <img
+                    src="./assets/image/image 8 (1).png"
+                    alt="footer-brand-etatpur"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+        <div class="footer-rights">
+          <p class="protected">Bütün hüquqlar qorunur. © 2022 BIODERMA</p>
+          <div class="footer-icon">
+           <div class="social-icon">
+            <img src="./assets/icons/whatsapp.svg" alt="vhatsapp">
+           </div>
+           <div class="social-icon">
+            <img src="./assets/icons/youtube.svg" alt="youtube-icon">
+           </div>
+          </div>
+          <p class="marcom-product">Bu bir <span class="marcom">Marcom</span> məhsuludur.</p>
+        </div>
+      </div>
+    </footer>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/JS/app.js"></script>
   </body>
 </html>
