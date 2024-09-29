@@ -38,6 +38,9 @@
   color: #444a51;
   font-size: 18px;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .sale {
   font-weight: 400;

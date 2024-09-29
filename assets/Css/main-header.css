@@ -77,9 +77,7 @@
   height: 40px;
   border: 1px solid #009bc7;
   border-radius: 7px;
-  
   flex-direction: column;
- 
   background-color: #009bc7;
   gap: 4px;
   display: none;
@@ -111,6 +109,7 @@
 .side-bar h2 {
   font-size: 20px;
   font-weight: 600;
+  margin: 0;
 }
 
 .close {
