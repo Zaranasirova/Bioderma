@@ -30,11 +30,8 @@
   background-color: #fff;
   font-weight: 400;
   font-size: 18px;
-  font-family: "Poppins", system-ui;
   color: #009bc7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
 }
 
 @media (max-width: 1200px) {

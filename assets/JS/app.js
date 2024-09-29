@@ -199,15 +199,15 @@ const createCartList = () => {
                         <p>${item.brand}</p>
                         <h4>${item.title}</h4>
                       </div>
-                      <div class="remove" onclick="removeCart(${item.id})">
+                      <div class="remove flex" onclick="removeCart(${item.id})">
                         <img src="./assets/icons/remove.svg" alt="remove-icon" />
                       </div>
                     </div>
                     <div class="body-bottom">
-                      <div class="counter">
-                        <span class="inrement" onclick="changeQuantity(${item.id}, -1)">-</span>
+                      <div class="counter flex">
+                        <span class="inrement flex" onclick="changeQuantity(${item.id}, -1)">-</span>
                         <span class="count">${item.quantity} </span>
-                        <span class="decrement" onclick="changeQuantity(${item.id}, 1)">+</span>
+                        <span class="decrement flex" onclick="changeQuantity(${item.id}, 1)">+</span>
                       </div>
                       <div class="price">
                         <span class="old-price">${item.oldPrice}  AZN</span>

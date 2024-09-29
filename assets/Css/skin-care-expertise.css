@@ -1,44 +1,3 @@
-/* .skinCareExpertise {
-  width: 100%;
-  height: 110px;
-  background-color: #facc02;
-}
-.careExperience {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  height: 110px;
-}
-.infosection {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  border-right: 1px solid #c5a54d;
-  height: 43px;
-  gap: 8px;
-}
-
-.infosection:nth-child(4) {
-  border-right: none;
-}
-
-.info-text {
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Poppins", system-ui;
-  color: #000000;
-  margin: 0;
-}
-
-@media (max-width: 850px) {
-  .infosection {
-    flex: 1 1 calc(50% - 10px);
-  }
-} */
-
 .skinCareExpertise {
   width: 100%;
   height: 100%;
@@ -55,10 +14,7 @@
 }
 
 .infosection {
-  display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   flex: 1;
   border-right: 1px solid #c5a54d;
   height: 43px;
@@ -72,7 +28,6 @@
 .info-text {
   font-size: 14px;
   font-weight: 400;
-  font-family: "Poppins", system-ui;
   color: #000000;
   margin: 0;
 }

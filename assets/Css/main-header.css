@@ -59,11 +59,10 @@
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
+  
   left: 11px;
   bottom: 11px;
-  align-items: center;
+
   background: #6bacc8;
 }
 .lang {
@@ -78,10 +77,9 @@
   height: 40px;
   border: 1px solid #009bc7;
   border-radius: 7px;
-  display: flex;
+  
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ 
   background-color: #009bc7;
   gap: 4px;
   display: none;
@@ -119,9 +117,6 @@
   background-color: #1f3c4b;
   width: 32px;
   height: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 1px solid #1f3c4b;
   border-radius: 6px;
 }
